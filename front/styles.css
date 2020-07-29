@@ -1,0 +1,37 @@
+body{
+    background-color: rgba(13, 115, 211, 0.966);
+}
+
+b{
+    color: rgb(0, 0, 0);
+    top: 1182px;
+    bottom: 1182px;
+}
+
+/* input{
+    background-color: rgb(255, 230, 0);
+    top: ;
+    bottom: ;
+    right: ;
+    left: ; */
+/* } */
+
+.form{
+    text-align: center;
+    vertical-align: bottom;
+    
+} 
+
+.field{
+    
+}
+
+.warning{
+    
+    
+}
+
+.button{
+    
+}
+
