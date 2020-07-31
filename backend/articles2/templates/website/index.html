@@ -1,0 +1,17 @@
+{% extends 'website/base.html' %}
+
+{% block title %}
+Страница с едой
+{% endblock %}
+
+{% block content %}
+<h1>Food</h1>
+{% for element in food %}
+<div class="alert alert-success mt-2">
+    <img src="{{ element.image.url }}">
+    <h3>{{ element.food_name }}</h3>
+    <p>{{ element.discription }}</p>
+    <p>Price: {{ element.price }}$</p>
+</div>
+{% endfor %}
+{% endblock %}

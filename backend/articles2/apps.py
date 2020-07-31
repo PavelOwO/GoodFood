@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class ArticlesConfig(AppConfig):
-    name = 'articles'
+class Articles2Config(AppConfig):
+    name = 'articles2'
     verbose_name = "Food"
